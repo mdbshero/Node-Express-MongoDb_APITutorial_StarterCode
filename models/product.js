@@ -25,5 +25,6 @@ const Product = mongoose.model('Product', productSchema);
 
 module.exports = {
     Product,
-    validateProduct
+    validateProduct,
+    productSchema
 };
